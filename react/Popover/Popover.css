@@ -1,0 +1,43 @@
+.Popover {
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100px;
+    max-width: 100px;
+    padding: 14px;
+    border: 1px solid #dadada;
+    background: #fff;
+    transform: translate(-47%, -130%);
+    z-index: 200;
+}
+
+.Popover, .Popover:before {
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+.Popover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #dadada;
+    background: #fff;
+}
+
+.Popover.ArrowBottom:after {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    margin-top: -7px;
+    border-top: 0;
+    border-left: 0;
+}
+
+.Popover input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
