@@ -18,8 +18,8 @@ const gridColumn = props => {
         classesColumn.push(classes[`Col${props.col}`])
     }
 
-    if (props.colOffset) {
-        classesColumn.push(classes[`ColOffset${props.colOffset}`])
+    if (props.offset) {
+        classesColumn.push(classes[`Offset${props.offset}`])
     }
 
     return (
@@ -31,7 +31,7 @@ const gridColumn = props => {
 
 gridColumn.propTypes = {
     col: PropTypes.oneOf([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
-    colOffset: PropTypes.oneOf([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
+    offset: PropTypes.oneOf([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
     className: PropTypes.string
 };
 

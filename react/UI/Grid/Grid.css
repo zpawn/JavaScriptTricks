@@ -32,19 +32,19 @@
 .Col10,
 .Col11,
 .Col12,
-.ColOffset0,
-.ColOffset1,
-.ColOffset2,
-.ColOffset3,
-.ColOffset4,
-.ColOffset5,
-.ColOffset6,
-.ColOffset7,
-.ColOffset8,
-.ColOffset9,
-.ColOffset10,
-.ColOffset11,
-.ColOffset12 {
+.Offset0,
+.Offset1,
+.Offset2,
+.Offset3,
+.Offset4,
+.Offset5,
+.Offset6,
+.Offset7,
+.Offset8,
+.Offset9,
+.Offset10,
+.Offset11,
+.Offset12 {
   box-sizing: border-box;
   flex: 0 0 auto;
 }
@@ -115,50 +115,50 @@
   max-width: 100%;
 }
 
-.ColOffset0 {
+.Offset0 {
   margin-left: 0;
 }
 
-.ColOffset1 {
+.Offset1 {
   margin-left: 8.33333333%;
 }
 
-.ColOffset2 {
+.Offset2 {
   margin-left: 16.66666667%;
 }
 
-.ColOffset3 {
+.Offset3 {
   margin-left: 25%;
 }
 
-.ColOffset4 {
+.Offset4 {
   margin-left: 33.33333333%;
 }
 
-.ColOffset5 {
+.Offset5 {
   margin-left: 41.66666667%;
 }
 
-.ColOffset6 {
+.Offset6 {
   margin-left: 50%;
 }
 
-.ColOffset7 {
+.Offset7 {
   margin-left: 58.33333333%;
 }
 
-.ColOffset8 {
+.Offset8 {
   margin-left: 66.66666667%;
 }
 
-.ColOffset9 {
+.Offset9 {
   margin-left: 75%;
 }
 
-.ColOffset10 {
+.Offset10 {
   margin-left: 83.33333333%;
 }
 
-.ColOffset11 {
+.Offset11 {
   margin-left: 91.66666667%;
 }
