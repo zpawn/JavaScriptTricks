@@ -1,4 +1,25 @@
-.hero {
+// background-size: cover;
+.image {
   padding: 100% 0 0 !important;
   background: #aaa url('http://...') center/cover no-repeat;
 }
+
+// Netflix style ( or Instagram )
+.wrapperImage {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+// Aspect Ratio
+.ratio--1x1 { padding-top: 100% }
+.ratio--16x9 { padding-top: 56.25% }
+.ratio--4x3 { padding-top: 75% }
+.ratio--3x2 { padding-top: 66.66% }
+.ratio--8x5 { padding-top: 62.5% }
