@@ -1,0 +1,21 @@
+.product {
+    display: block;
+}
+
+.buy-modal {
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: #9fd;
+}
+
+.buy-modal--hide {
+    display: none;
+}

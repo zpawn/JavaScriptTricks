@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Observer</title>
+</head>
+
+<body>
+    <div class="products">
+        <button class="product" data-id="1">Product 1</button>
+        <button class="product" data-id="2">Product 2</button>
+        <button class="product" data-id="3">Product 3</button>
+        <button class="product" data-id="4">Product 4</button>
+    </div>
+
+    <div class="basket">
+        <h3 class="basket__title">Basket</h3>
+        <ul class="basket__products-list"></ul>
+    </div>
+
+    <div class="buy-modal buy-modal--hide">
+        <h3 class="buy-modal__title">Congratulations!</h3>
+        <span class="buy-modal__message"></span>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
